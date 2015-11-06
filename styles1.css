@@ -1,0 +1,126 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #747704;
+  font-weight: 300;
+  background-color: #edf3f5;
+}
+
+.text-muted {
+        color: #bcbbbb
+}
+
+.text-thin {
+        font-weight: 100;
+}
+/*@media only screen and (max-width: 500px){
+   p{
+      display:none;
+   }
+}*/
+
+.title-main {
+  font-size: 60px;
+}
+
+.title-logo {
+  margin-top: 30px;
+}
+
+
+hr {
+  border-bottom: 3px solid rgb(284,84,95);
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 480px) {
+
+  .title-logo {
+
+    display: none;
+  }
+
+  .title-main,
+  .header-title,
+
+  .text-muted {
+
+    text-align: center;
+  }
+
+  .project-img {
+
+    max-width: 260px;
+    max-height: 206px;
+}
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 650px){
+
+
+  .title-main {
+
+    font-size: 28px;
+  }
+
+  .title-position {
+
+    font-size: 12px;
+  }
+
+  .project-img {
+
+    max-width: 300px;
+    max-height: 238px;
+}
+}
+
+
+@media screen and (min-width: 651px) and (max-width: 990px){
+
+
+  .title-main {
+
+    font-size: 40px;
+  }
+
+  .title-position {
+
+    font-size: 15px;
+  }
+
+  .project-name {
+
+    font-size: 15px;
+  }
+
+}
+
+@media screen and (min-width: 991px){
+
+  .title-main {
+
+    font-size: 60px;
+  }
+
+  .title-position {
+
+    font-size: 15px;
+  }
+
+  .project-name {
+
+    font-size: 15px;
+  }
+
+
+}

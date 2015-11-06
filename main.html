@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Charles Anim_WebDev</title>
+
+    <!--meta tags-->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--css files-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles1.css">
+
+    <!--font-->
+
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+
+  </head>
+
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img class="title-logo" src="images/atefa.png">
+            </div>
+            <div class="col-md-6 text-right text-uppercase">
+                <h1 class="title-main text-thin">Charles Anim</h1>
+                <h3 class="title-position">Front-end Pacifier</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <hr>
+            </div>
+        </div>
+     <div class ="row">
+        <div class="col-md-12">
+            <img src="images/keepcalm.png" class="img-responsive" alt="Responsive image">
+        </div>
+     </div>
+        <div class="row">
+           <div class="col-md-12">
+               <h2 class="text-muted">Featured Work</h2>
+           </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img src="images/codepen.png" class="img-responsive project-img" alt="About Me Project" data-toggle="modal" data-target="#project1">
+                <h4 class="text-uppercase project-name">About Me Project</h4>
+                <p><a href="http://codepen.io/napster499/pen/jPRBwZ">Link to project</a></p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/backimage1.png" class="img-responsive project-img" alt="University Logo" data-toggle="modal" data-target="#project2">
+                <h4 class="text-uppercase project-name">University App</h4>
+                <p><a href="https://play.google.com/store/apps/details?id=edu.asu.mobile.android.test&amp;hl=en">Link to project</a></p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/mogpa.png" class="img-responsive project-img" alt="Mogpa App Logo" data-toggle="modal" data-target="#project3">
+                <h4 class="text-uppercase project-name">MOGPA App</h4>
+                <p><a href="https://www.microsoft.com/store/apps/9wzdncrdfvtk">Link to project</a></p>
+            </div>
+        </div>
+    </div>
+    </body>
+
+
+        <!--javascript files-->
+
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+        <!--twitter follow button-->
+    <a href="https://twitter.com/atefanapster" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @atefanapster</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+  <!-- Modals -->
+
+  <!--Modal project1-->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog"aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel1">About Me Project</h4>
+              </div>
+                <div class="modal-body">
+                      <img class="img-responsive" src="images/codepen.png">
+                        This was my first project in this class. I learned a lot about HTML and CSS. I get to build my very first website
+                </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div><!-- Modal footer-->
+            </div><!-- Modal content-->
+        </div><!-- Modal dialog-->
+    </div><!-- Modal project1-->
+
+
+
+    <!--Modal project2-->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel2">University App</h4>
+              </div>
+                <div class="modal-body">
+                      <img class="img-responsive" src="images/backimage1.png">
+                        I contributed to the development and optimization of this campus app in Java on Android and porting it to iOS.
+                </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div><!-- Modal footer-->
+            </div><!-- Modal content-->
+        </div><!-- Modal dialog-->
+    </div><!-- Modal project2-->
+
+    <!--Modal project3-->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel3">Mogpa App</h4>
+              </div>
+                <div class="modal-body">
+                      <img class="img-responsive" src="images/mogpa.png">
+                        An app I built for a church in C# on Windows Phone 8 and Windows 8.1. Currently working on porting it to Windows 10 devices, iOS and Android.
+                </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div><!-- Modal footer-->
+            </div><!-- Modal content-->
+        </div><!-- Modal dialog-->
+    </div><!-- Modal project-->
+
+    <!-- FOOTER -->
+  <footer>
+      <!-- COPYRIGHT -->
+      <p><em>Copyright © 2015 Charles Anim</em></p>
+  </footer>
+
+</html>
